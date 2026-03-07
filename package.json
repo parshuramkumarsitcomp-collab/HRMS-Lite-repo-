@@ -1,0 +1,15 @@
+{
+  "name": "hrms-lite",
+  "version": "1.0.0",
+  "description": "HRMS Lite - Employee and Attendance Management System",
+  "scripts": {
+    "install:all": "cd hrms-backend && npm install --no-bin-links && cd ../app && npm install",
+    "start:backend": "cd hrms-backend && npm start",
+    "start:frontend": "cd app && npm run dev",
+    "build:frontend": "cd app && npm run build",
+    "dev": "echo 'Please run start:backend and start:frontend in separate terminals'"
+  },
+  "keywords": ["hrms", "employee", "attendance", "management"],
+  "author": "",
+  "license": "ISC"
+}
